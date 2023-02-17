@@ -701,6 +701,10 @@ video {
   margin-bottom: 5rem;
 }
 
+.mt-11{
+  margin-top: 2.75rem;
+}
+
 .block{
   display: block;
 }
@@ -917,6 +921,10 @@ video {
   padding: 3rem;
 }
 
+.p-11{
+  padding: 2.75rem;
+}
+
 .px-4{
   padding-left: 1rem;
   padding-right: 1rem;
@@ -1043,11 +1051,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.line-through{
-  -webkit-text-decoration-line: line-through;
-          text-decoration-line: line-through;
-}
-
 .no-underline{
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
@@ -1145,6 +1148,11 @@ video {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.medium_articles {
+  max-width: 55%;
+  margin: 0 auto;
 }
 
 /* #scroll-container {
